@@ -13,9 +13,13 @@ and deducts points for incorrect or timed-out responses.After the quiz, user sco
 **Main Features:**
 
 **User Registration:**``` Validates unique usernames and formatted emails.```
+
 **Randomized Questions:**``` Selects five unique questions per session.```
+
 **Timer-Based Gameplay:** ```CountDownTimer manages transitions between questions.```
+
 **Scoring System:** ```Tracks correct/incorrect answers in real-time.```
+
 **End Screen Queries:** ```Displays top scores, player stats, and averages.```
 
 **Database Schema:**
