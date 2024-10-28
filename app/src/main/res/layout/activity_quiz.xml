@@ -1,0 +1,131 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="20dp"
+        android:text="Question: "
+        android:textColor="#0F071E"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingVertical="10dp"> <!-- Center contents horizontally -->
+
+        <TextView
+            android:id="@+id/txtt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="cursive"
+            android:paddingVertical="15dp"
+            android:text="Left Time: "
+            android:textColor="#5D1414"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/timerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="cursive"
+            android:text="10"
+            android:textColor="#5D1414"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/optButton1"
+        android:backgroundTint="#600D0D"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Option 1" />
+
+    <Button
+        android:id="@+id/optButton2"
+        android:backgroundTint="#600D0D"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Option 2" />
+
+    <Button
+        android:id="@+id/optButton3"
+        android:backgroundTint="#600D0D"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Option 3" />
+
+    <TextView
+        android:id="@+id/summaryTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Your Performance."
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/correctAnsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="correct Answers: 0"
+        android:textColor="#0F071E"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/incorrectAnsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Incorrect Answers: 0"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#0F071E"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="Final Score : ."
+        android:textColor="#5D1414"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/finishButton"
+        android:layout_width="190dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#0F071E"
+        android:fontFamily="sans-serif-light"
+        android:text="Finish The Quiz" />
+
+</LinearLayout>

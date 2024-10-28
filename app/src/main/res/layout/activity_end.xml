@@ -1,0 +1,116 @@
+<!-- activity_queries.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1E9E9"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="40dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:paddingVertical="16dp"
+        android:text="Choose one of the following:"
+        android:textColor="#0F071E"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnTop5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#600D0D"
+        android:fontFamily="serif"
+        android:text="Retrieve Top 5 Scores"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnTotalPlayers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#600D0D"
+        android:fontFamily="serif"
+        android:text="Count Total Number of Players"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnAvgeScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#600D0D"
+        android:fontFamily="serif"
+        android:text="Calculate Average Score"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnHighestScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#600D0D"
+        android:text="Find Highest Score"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:fontFamily="serif"
+        android:gravity="center_vertical"
+        android:layout_marginTop="12dp">
+
+        <Button
+            android:id="@+id/btnPlayerScores"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:backgroundTint="#600D0D"
+            android:text="Retrieve Score of Player"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/editTextPlayerName"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:hint="Enter Username"
+            android:padding="8dp"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonNewQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#0F071E"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Start New Quiz"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewResults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:textColor="#333333"
+        android:textSize="16sp" />
+</LinearLayout>

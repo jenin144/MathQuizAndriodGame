@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F4F4"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <!-- Title TextView -->
+
+    <!-- Username Field -->
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Math Quiz Game"
+        android:textColor="#0F071E"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColor="#5F0909" />
+
+    <!-- Email Field -->
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColor="#5F0909" />
+
+    <!-- Birthdate Field (User enters date directly) -->
+    <EditText
+        android:id="@+id/birthdateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Birthdate (DD/MM/YYYY)"
+        android:inputType="date"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColor="#5F0909" />
+
+    <!-- Start Button -->
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="215dp"
+        android:layout_height="126dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#0F071E"
+        android:fontFamily="casual"
+        android:padding="15dp"
+        android:text="Start The Quiz"
+        android:textColor="#EFC5C5"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        app:iconSize="20dp" />
+
+</LinearLayout>
