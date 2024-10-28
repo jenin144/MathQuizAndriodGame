@@ -8,6 +8,7 @@ Users register with unique usernames, emails, and birthdates before beginning th
 Each quiz session consists of five randomly selected math questions from a Questions.csv file,
 with a 10-second timer per question. The scoring system awards points for correct answers
 and deducts points for incorrect or timed-out responses.After the quiz, user scores and data are saved to a database.
+And multiple Quires are performed
 ```
 
 **Main Features:**
