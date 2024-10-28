@@ -32,8 +32,10 @@ and deducts points for incorrect or timed-out responses.After the quiz, user sco
 
 
 
-**Quiz Ativity**
 ![image](https://github.com/user-attachments/assets/c01c0cbd-b9f3-4638-b628-c5dbd3982308)
+**Quiz Ativity**
+
+
+![image](https://github.com/user-attachments/assets/c9b03df6-5315-4b50-ad08-c988267a2f20)
 
 **EndActivity**
-![image](https://github.com/user-attachments/assets/c9b03df6-5315-4b50-ad08-c988267a2f20)
